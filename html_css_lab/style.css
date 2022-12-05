@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > footer {
+    background-color: hotpink;
+}
+
+body > footer > p {
+    margin: 0;
+    padding: 16px;
+    color: white;
+    text-align: center;
+}
+
+body > header {
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(246, 239, 252);
+}
+
+#title {
+    text-align: center;
+    color: blueviolet;
+    border: 5px solid hotpink;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul >li > a {
+    color: navy;
+}
+
+.photo {
+    height: 500px;
+    width: 500px;
+}
+
+.user-photo {
+    height: 180px;
+    width: 180px;
+}

@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > footer {
+    background-color: green;
+}
+
+body > footer > p {
+    padding: 16px;
+    color: white;
+    text-align: center;
+}
+
+body > header {
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+
+#logo {
+    margin: 0;
+    padding: 10px;
+    font-family: Roboto;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul >li > a {
+    color: brown;
+
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+.like_button {
+    background-color: purple;
+    border: 5px solid yellow;
+    color: hotpink;
+}
+
+.share_button {
+    background-color: blue;
+    border: 5px solid orange;
+}
